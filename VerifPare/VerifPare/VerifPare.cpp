@@ -5,6 +5,7 @@ int main()
 {
     int n, x;
     bool found = false;
+    cin >> n;
     for (int i = 1; i <= n; i++)
     {
         cin >> x;
