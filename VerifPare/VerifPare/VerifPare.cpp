@@ -10,10 +10,10 @@ int main()
     {
         cin >> x;
         if (x % 2 == 0)
-            found == true;
+            found = true;
         else
         {
-            found == false;
+            found = false;
             break;
         }
     }
