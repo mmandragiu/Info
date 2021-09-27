@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AfisarePuteri", "AfisarePuteri\AfisarePuteri.vcxproj", "{607AB94E-D143-4194-87C5-717D6831DADB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{607AB94E-D143-4194-87C5-717D6831DADB}.Debug|x64.ActiveCfg = Debug|x64
+		{607AB94E-D143-4194-87C5-717D6831DADB}.Debug|x64.Build.0 = Debug|x64
+		{607AB94E-D143-4194-87C5-717D6831DADB}.Debug|x86.ActiveCfg = Debug|Win32
+		{607AB94E-D143-4194-87C5-717D6831DADB}.Debug|x86.Build.0 = Debug|Win32
+		{607AB94E-D143-4194-87C5-717D6831DADB}.Release|x64.ActiveCfg = Release|x64
+		{607AB94E-D143-4194-87C5-717D6831DADB}.Release|x64.Build.0 = Release|x64
+		{607AB94E-D143-4194-87C5-717D6831DADB}.Release|x86.ActiveCfg = Release|Win32
+		{607AB94E-D143-4194-87C5-717D6831DADB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6B2609F-12D0-47D2-88B9-2651175D097B}
+	EndGlobalSection
+EndGlobal

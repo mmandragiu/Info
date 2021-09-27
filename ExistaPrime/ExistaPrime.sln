@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExistaPrime", "ExistaPrime\ExistaPrime.vcxproj", "{EA55C794-900C-43C6-AA29-7D334A81A876}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA55C794-900C-43C6-AA29-7D334A81A876}.Debug|x64.ActiveCfg = Debug|x64
+		{EA55C794-900C-43C6-AA29-7D334A81A876}.Debug|x64.Build.0 = Debug|x64
+		{EA55C794-900C-43C6-AA29-7D334A81A876}.Debug|x86.ActiveCfg = Debug|Win32
+		{EA55C794-900C-43C6-AA29-7D334A81A876}.Debug|x86.Build.0 = Debug|Win32
+		{EA55C794-900C-43C6-AA29-7D334A81A876}.Release|x64.ActiveCfg = Release|x64
+		{EA55C794-900C-43C6-AA29-7D334A81A876}.Release|x64.Build.0 = Release|x64
+		{EA55C794-900C-43C6-AA29-7D334A81A876}.Release|x86.ActiveCfg = Release|Win32
+		{EA55C794-900C-43C6-AA29-7D334A81A876}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24C4CF0B-CA80-4E7A-A956-BC67B6B22D90}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rapunzel", "Rapunzel\Rapunzel.vcxproj", "{03430424-5A10-41DD-BB8A-D522691B6F91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03430424-5A10-41DD-BB8A-D522691B6F91}.Debug|x64.ActiveCfg = Debug|x64
+		{03430424-5A10-41DD-BB8A-D522691B6F91}.Debug|x64.Build.0 = Debug|x64
+		{03430424-5A10-41DD-BB8A-D522691B6F91}.Debug|x86.ActiveCfg = Debug|Win32
+		{03430424-5A10-41DD-BB8A-D522691B6F91}.Debug|x86.Build.0 = Debug|Win32
+		{03430424-5A10-41DD-BB8A-D522691B6F91}.Release|x64.ActiveCfg = Release|x64
+		{03430424-5A10-41DD-BB8A-D522691B6F91}.Release|x64.Build.0 = Release|x64
+		{03430424-5A10-41DD-BB8A-D522691B6F91}.Release|x86.ActiveCfg = Release|Win32
+		{03430424-5A10-41DD-BB8A-D522691B6F91}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC48F0D7-CD49-461D-B133-99DABE67FCF8}
+	EndGlobalSection
+EndGlobal

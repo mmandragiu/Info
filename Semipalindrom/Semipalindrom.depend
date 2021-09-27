@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1614852332 source:c:\scoala\info\semipalindrom\main.cpp
+	<iostream>
+	<fstream>
+

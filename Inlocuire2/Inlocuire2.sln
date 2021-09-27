@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inlocuire2", "Inlocuire2\Inlocuire2.vcxproj", "{DBBB02BC-C5A5-481C-B662-D54F625A4387}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBBB02BC-C5A5-481C-B662-D54F625A4387}.Debug|x64.ActiveCfg = Debug|x64
+		{DBBB02BC-C5A5-481C-B662-D54F625A4387}.Debug|x64.Build.0 = Debug|x64
+		{DBBB02BC-C5A5-481C-B662-D54F625A4387}.Debug|x86.ActiveCfg = Debug|Win32
+		{DBBB02BC-C5A5-481C-B662-D54F625A4387}.Debug|x86.Build.0 = Debug|Win32
+		{DBBB02BC-C5A5-481C-B662-D54F625A4387}.Release|x64.ActiveCfg = Release|x64
+		{DBBB02BC-C5A5-481C-B662-D54F625A4387}.Release|x64.Build.0 = Release|x64
+		{DBBB02BC-C5A5-481C-B662-D54F625A4387}.Release|x86.ActiveCfg = Release|Win32
+		{DBBB02BC-C5A5-481C-B662-D54F625A4387}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE10F095-5A6E-4CE3-A9D2-8B1031B34398}
+	EndGlobalSection
+EndGlobal

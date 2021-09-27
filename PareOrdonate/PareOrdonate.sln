@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PareOrdonate", "PareOrdonate\PareOrdonate.vcxproj", "{A82D5D83-98CC-4A93-90D2-593484FB3ECB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A82D5D83-98CC-4A93-90D2-593484FB3ECB}.Debug|x64.ActiveCfg = Debug|x64
+		{A82D5D83-98CC-4A93-90D2-593484FB3ECB}.Debug|x64.Build.0 = Debug|x64
+		{A82D5D83-98CC-4A93-90D2-593484FB3ECB}.Debug|x86.ActiveCfg = Debug|Win32
+		{A82D5D83-98CC-4A93-90D2-593484FB3ECB}.Debug|x86.Build.0 = Debug|Win32
+		{A82D5D83-98CC-4A93-90D2-593484FB3ECB}.Release|x64.ActiveCfg = Release|x64
+		{A82D5D83-98CC-4A93-90D2-593484FB3ECB}.Release|x64.Build.0 = Release|x64
+		{A82D5D83-98CC-4A93-90D2-593484FB3ECB}.Release|x86.ActiveCfg = Release|Win32
+		{A82D5D83-98CC-4A93-90D2-593484FB3ECB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D326563E-5FB9-4C5B-A7D2-C0B4B6FC032B}
+	EndGlobalSection
+EndGlobal

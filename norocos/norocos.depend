@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1616271391 source:c:\scoala\info\norocos\main.cpp
+	<fstream>
+

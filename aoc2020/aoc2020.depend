@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1613141878 source:c:\scoala\info\aoc2020\main.cpp
+	<fstream>
+	<iostream>
+

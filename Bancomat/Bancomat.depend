@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1614847537 source:c:\scoala\info\bancomat\main.cpp
+	<fstream>
+

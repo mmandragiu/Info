@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1602855260 source:c:\scoala\info\inaltimea_triunghiului\main.cpp
+	<iostream>
+	<stdio.h>
+

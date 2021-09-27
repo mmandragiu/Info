@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1605276528 source:c:\scoala\info\pinocchio\main.cpp
+	<fstream>
+

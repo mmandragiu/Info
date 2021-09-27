@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1607884425 source:c:\scoala\info\monotona\main.cpp
+	<fstream>
+	<iostream>
+

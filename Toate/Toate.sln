@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Toate", "Toate\Toate.vcxproj", "{F361F32A-4064-4C48-993C-CB094B4B3972}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F361F32A-4064-4C48-993C-CB094B4B3972}.Debug|x64.ActiveCfg = Debug|x64
+		{F361F32A-4064-4C48-993C-CB094B4B3972}.Debug|x64.Build.0 = Debug|x64
+		{F361F32A-4064-4C48-993C-CB094B4B3972}.Debug|x86.ActiveCfg = Debug|Win32
+		{F361F32A-4064-4C48-993C-CB094B4B3972}.Debug|x86.Build.0 = Debug|Win32
+		{F361F32A-4064-4C48-993C-CB094B4B3972}.Release|x64.ActiveCfg = Release|x64
+		{F361F32A-4064-4C48-993C-CB094B4B3972}.Release|x64.Build.0 = Release|x64
+		{F361F32A-4064-4C48-993C-CB094B4B3972}.Release|x86.ActiveCfg = Release|Win32
+		{F361F32A-4064-4C48-993C-CB094B4B3972}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EFA7762-53F1-4866-9B74-4AECE9B4E404}
+	EndGlobalSection
+EndGlobal

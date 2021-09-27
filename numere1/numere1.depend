@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1616166818 source:c:\scoala\info\numere1\main.cpp
+	<fstream>
+	<cmath>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1613328254 source:c:\scoala\info\aparitie cifre\main.cpp
+	<fstream>
+	<iostream>
+

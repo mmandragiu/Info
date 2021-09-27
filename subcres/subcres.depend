@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1608302861 source:c:\scoala\info\subcres\main.cpp
+	<fstream>
+	<iostream>
+

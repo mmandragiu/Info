@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cavaleri", "Cavaleri\Cavaleri.vcxproj", "{05340EC7-4881-4867-9BEB-8A31D66E10EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05340EC7-4881-4867-9BEB-8A31D66E10EB}.Debug|x64.ActiveCfg = Debug|x64
+		{05340EC7-4881-4867-9BEB-8A31D66E10EB}.Debug|x64.Build.0 = Debug|x64
+		{05340EC7-4881-4867-9BEB-8A31D66E10EB}.Debug|x86.ActiveCfg = Debug|Win32
+		{05340EC7-4881-4867-9BEB-8A31D66E10EB}.Debug|x86.Build.0 = Debug|Win32
+		{05340EC7-4881-4867-9BEB-8A31D66E10EB}.Release|x64.ActiveCfg = Release|x64
+		{05340EC7-4881-4867-9BEB-8A31D66E10EB}.Release|x64.Build.0 = Release|x64
+		{05340EC7-4881-4867-9BEB-8A31D66E10EB}.Release|x86.ActiveCfg = Release|Win32
+		{05340EC7-4881-4867-9BEB-8A31D66E10EB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82781394-1C52-421A-991C-4A6F67248B50}
+	EndGlobalSection
+EndGlobal
