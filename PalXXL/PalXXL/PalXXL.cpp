@@ -3,14 +3,19 @@ using namespace std;
 
 int main()
 {
-    int n, v[1000] = { 0 },x=0;
+    int n, v[1000] = { 0 };
     bool found = false;
     cin >> n;
-    for (int i = 0; i < n; i++)
-        cin >> v[i];
-    for (int i = n - 1; i >= 0; --i)
+    if (n == 1)
     {
-        x = x * 10 + v[i];
+        cin >> v[0];
+        cout << v[0] << '\n' << "DA";
+        return 0;
+    }
+    for (int i = 0; i < n; i++)
+    {
+        cin >> v[i];
+        cout << v[i];
     }
     for (int i = 0; i < n / 2; i++)
     {
@@ -22,7 +27,7 @@ int main()
             break;
         }
     }
-    cout << x << endl;
+    cout << '\n';
     if (found == true)
         cout << "DA";
     else
