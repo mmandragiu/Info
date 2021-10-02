@@ -3,9 +3,7 @@
 using namespace std;
 
 int main()
-{int n,i=0;
- cin>>n;
- while(i<n)
- cout<<"Hai LAL!"<<" ";
+{int n=5;
+cout<<n/2;
     return 0;
 }

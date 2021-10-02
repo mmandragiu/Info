@@ -1,23 +1,16 @@
 #include <iostream>
 
-int main()
-{
-    long long n, v[100001] = { 0 }, difmax = -2000000002,min=1000000001,max=-1000000001;
-    std::cin >> n;
-    for (int i = 1; i <= n; i++)
-        std::cin >> v[i];
-    for (int i = 1; i < n; i++)
-    {
-        min = 1000000001, max = -1000000001;
-        for (int a = 1; a <= i; a++)
-            if (v[a] > max)
-                max = v[a];
-        for (int b = i; b <= n; b++)
-            if (v[b] < min)
-                min = v[b];
-        if (max - min > difmax)
-            difmax = max - min;
+using namespace std;
+
+int main() {
+    int n, ai, aj;
+    cin >> n >> ai;
+    int difMax = -2000000000;
+    for (int j = 1; j < n; j++) {
+        cin >> aj;
+        difMax = max(difMax, ai - aj);
+        ai = max(ai, aj);
     }
-    std::cout << difmax;
+    cout << difMax;
     return 0;
 }

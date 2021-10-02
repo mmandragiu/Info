@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int n, x, prev;
+    int n, x, prev = 0;
     bool found = false;
     cin >> n;
     for (int i = 1; i <= n; i++)
@@ -13,13 +13,14 @@ int main()
             prev = x;
         else
         {
-            if (prev == x)
+            if (prev <= x)
                 found = true;
             else
             {
                 found = false;
                 break;
             }
+            prev = x;
         }
     }
     if (n == 1)
