@@ -7,14 +7,12 @@ int main()
     int n;
     unsigned long long int prod=1, sum=0;
     cin >> n;
-    if (n == 0)
-    {
-        cout << "Rezultatul este ";
-    }
     for (int i = 1; i <= n; i++)
     {
-        prod = (int)pow(i, i);
-        sum = sum + prod;
+        for (int j = 1; j <= i; j++)
+            prod = prod * i;
+        sum += prod;
+        prod = 1;
     }
     cout <<"Rezultatul este "<< sum;
 }
