@@ -5,7 +5,7 @@ int Eratostene[1000001] = { 0 };
 
 void CalcEratostene(int* eratostene, int n) {
     eratostene[0] = 1, eratostene[1] = 1;
-    for (int i = 2; i < sqrt(n); i++)
+    for (int i = 2; i < sqrt(n); i++)//calculam ciurul lui eratostene
     {
         if (eratostene[i] == 0)
             for (int j = 2; j <= n / i; j++)
