@@ -13,4 +13,6 @@ int main()
                 X[i] = X[i + 1];
             n--;
         }
+    for (int i = 0; i < n; i++)
+        cout << X[i] << " ";
 }

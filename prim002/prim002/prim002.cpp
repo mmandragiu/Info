@@ -10,28 +10,34 @@ bool Prim(int n)
     {
         if (n % d == 0)
             return false;
-        else d++;
+        d++;
     }
     return true;
 }
 
 int main()
 {
-    int n, d, max=0;
+    unsigned long long int n, d = 2, p,m=0;
     cin >> n;
-    for (int d = 1; d * d <= n; d++)
+    if (Prim(n) == true)
     {
-        if (n % d == 0)
-        {
-            if (Prim(d) == true and d>max)
-                max = d;
-            if (d * d < n)
-            {
-                if (Prim(n / d) == true and n / d > max)
-                    max = n / d;
-            }
-        }
+        cout << n;
+        return 0;
     }
-    cout << max;
+    while (n > 1)
+    {
+        p = 0;
+        while (n % d == 0)
+        {
+            p++;
+            n /= d;
+        }
+        if (p != 0)
+            m = d;
+        d++;
+        if (d * d > n)
+            d = n;
+    }
+    cout << m;
     return 0;
 }

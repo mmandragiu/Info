@@ -1,20 +1,55 @@
-// PalMax.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+using namespace std;
+
+bool Palindrom(unsigned long long n)
+{
+    int cifre[9] = { 0 }, i = 0;
+    bool found = false;
+    while (n)
+    {
+        cifre[i] = n % 10;
+        i++;
+        n /= 10;
+    }
+    for (int j = 0; j < i / 2; j++)
+    {
+        if (cifre[j] == cifre[i - j - 1])
+            found = true;
+        else
+        {
+            found = false;
+            break;
+        }
+    }
+    if (found == true)
+        return true;
+    else
+        return false;
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    long long x, nrmax=-1000000001, aparitii = 0; 
+    cin >> x;
+    while(x!=0)
+    {
+        if (Palindrom(x) == true)
+        {
+            if (x > nrmax)
+            {
+                nrmax = x;
+                aparitii = 1;
+            }
+            else
+            {
+                if (x == nrmax)
+                    aparitii++;
+            }
+        }
+        cin >> x;
+    }
+    if (nrmax == -1000000001)
+        cout << "NU EXISTA";
+    else
+        cout << nrmax<<" "<<aparitii;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
