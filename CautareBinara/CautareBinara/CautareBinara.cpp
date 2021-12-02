@@ -2,34 +2,42 @@
 #include <algorithm>
 using namespace std;
 
+int v[25000];
+
 int main()
 {
-    int n, v[10],left=0,right=0,mid=0,x,poz=0;
-    cin >> n>>x;
-    right = n - 1;
+    int n, x, left, right, mid, m;
+    bool found = false;
+    cin >> n;
     for (int i = 0; i < n; i++)
         cin >> v[i];
-    sort(v, v + n);
-    while (left <= right)
+    cin >> m;
+    for (int i = 0; i < m; i++)
     {
-        mid = (left + right) / 2;
-        if (v[mid] == x)
+        cin >> x;
+        found = false;
+        left = 0;
+        right = n - 1;
+        while (left <= right)
         {
-            poz = mid;
-            break;
-        }
-        else
-        {
-            if (x < v[mid])
+            mid = (left + right) / 2;
+            if (v[mid] == x)
             {
-                right = mid;
+                found = true;
+                break;
             }
             else
             {
-                left = mid;
+                if (v[mid] > x)
+                    right = mid - 1;
+                else
+                    left = mid + 1;
             }
         }
+        if (found == true)
+            cout << 1 << " ";
+        else
+            cout << 0 << " ";
     }
-    cout << poz;
     return 0;
 }

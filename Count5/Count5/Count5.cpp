@@ -13,18 +13,18 @@ int SumCif(int n)
 
 int main()
 {
-    int n, v[100000], x = 0;
+    int n, x, s[82] = { 0 }, perechi = 0;
     cin >> n;
     for (int i = 0; i < n; i++)
-        cin >> v[i];
-    for (int i = 0; i < n - 1; i++)
     {
-        for (int j = i + 1; j < n; j++)
-        {
-            if (SumCif(v[i]) == SumCif(v[j]))
-                x++;
-        }
+        cin >> x;
+        s[SumCif(x)]++;
     }
-    cout << x;
+    for (int i = 0; i < 82; i++)
+    {
+        if (s[i] != 0)
+            perechi = perechi + s[i] * (s[i] - 1) / 2;
+    }
+    cout << perechi;
     return 0;
 }
