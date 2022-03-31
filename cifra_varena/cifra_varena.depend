@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1645895558 source:c:\scoala\info\cifra_varena\main.cpp
+	<fstream>
+	<cmath>
+	<algorithm>
+

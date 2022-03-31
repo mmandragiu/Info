@@ -1,29 +1,36 @@
 #include <iostream>
 using namespace std;
 
+long long f[1000000], v[1000000];
+
 int main()
 {
-    int n, v[1001], left = 0, right = 0, l, lmax = 0;
+    int n, l, r, lmax = 0;
     cin >> n;
     for (int i = 1; i <= n; i++)
+    {
         cin >> v[i];
+        if (f[v[i]] == 0)
+            f[v[i]] = i;
+    }
     for (int i = 1; i <= n; i++)
     {
-        l = 0;
-        for (int j = i + 1; j <= n; j++)
+        if (f[v[i]] != 0)
         {
-            if (v[i] == v[j])
+            for (int j = i; j <= n; j++)
             {
-                l = j - i + 1;
+                if (v[j] == v[i])
+                {
+                    l = j - i + 1;
+                    r = j;
+                }
+            }
+            if (l >= lmax)
+            {
+                lmax = l;
+                l = i;
             }
         }
-        if (l > lmax)
-        {
-            lmax = l;
-            left = i;
-            right = i + l - 1;
-        }
     }
-    cout << left << " " << right;
-    return 0;
+    cout << l << " " << r;
 }

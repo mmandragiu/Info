@@ -1,8 +1,8 @@
 #include <fstream>
 using namespace std;
 
-ifstream in("cod3.in");
-ofstream out("cod3.out");
+ifstream in("cod5.in");
+ofstream out("cod5.out");
 
 int n, f[100], x;
 

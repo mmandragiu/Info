@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1647190129 source:c:\scoala\info\nod\main.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+

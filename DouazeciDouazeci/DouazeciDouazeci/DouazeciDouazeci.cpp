@@ -3,26 +3,27 @@ using namespace std;
 
 int main()
 {
-    int n, v[100], aparitie = 0;
+    int n, x, f[2017] = { 0 }, p, d;
     cin >> n;
-    for (int i = 0; i < n; i++)
-        cin >> v[i];
-    for (int i = 0; i < n - 1; i++)
+    for (int i = 1; i <= n; i++)
     {
-        for (int j = i + 1; j < n; j++)
+        cin >> x;
+        d = 2;
+        while (x > 1)
         {
-            if (v[i] * v[j] == 2020)
+            p = 0;
+            while (x % d == 0)
             {
-                aparitie = 1;
-                break;
+                p++;
+                x /= d;
             }
-            else
-                aparitie = 0;
+            f[d] += p;
+            d++;
+            if (x > 1 && d > x)
+                d = x;
         }
-        if (aparitie == 1)
-            break;
     }
-    if (aparitie == 1)
+    if (f[2] >= 2 && f[5] >= 1 && f[101] >= 1)
         cout << "DA";
     else
         cout << "NU";

@@ -8,8 +8,8 @@ using namespace std;
 
 int main()
 {
-    ifstream in("sir.in");
-    ofstream out("sir.out");
+    ifstream in("sir7.in");
+    ofstream out("sir7.out");
     int C, n, x[100001] = {-1}, max = -1, primaAparitie = 0, ultimaAparitie = 0, sumaCresteri = 0;
     in >> C;
     in >> n;

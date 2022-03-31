@@ -1,17 +1,13 @@
 #include <fstream>
 using namespace std;
-ifstream in("concurs.in");
-ofstream out("concurs.out");
+ifstream in("concurs3.in");
+ofstream out("concurs3.out");
 
 int main()
 {
-    long int C, N, EchipaConcurent, PunctajConcurent,ultimcif,sume[100000],suma=0,sumamax=-1,concurenti=0;
+    long int C, N, EchipaConcurent, PunctajConcurent, ultimcif, sume[100000] = { 0 }, suma = 0, sumamax = -1, concurenti = 0;
     int PunctajEchipa1 = 0, PunctajEchipa2 = 0, PunctajEchipa3 = 0;
     in >> C >> N;
-    for (int i = 1; i <= N; i++)
-    {
-        sume[i] = 0;
-    }
     if (C == 1)
     {
         for (int i = 1; i <= N; i++)

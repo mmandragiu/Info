@@ -1,8 +1,8 @@
 #include <fstream>
 
 using namespace std;
-ifstream in("concurs_2.0.in");
-ofstream out("concurs_2.0.out");
+ifstream in("concurs3.in");
+ofstream out("concurs3.out");
 
 int main()
 {

@@ -1,53 +1,43 @@
 #include <fstream>
+#include <cmath>
+
 using namespace std;
 
 ifstream in("prim013.in");
 ofstream out("prim013.out");
 
+unsigned long long Eratostene[1000001];
+
 int NrDiv(int n)
 {
-    int d = 2, p, div = 1;
-    while (n > 1)
-    {
-        p = 0;
-        while (n % d == 0)
-        {
-            p++;
-            n /= d;
-        }
-        if (p != 0)
-            div = div * (p + 1);
-        d++;
-        if (n > 1 && d * d > n)
-            d = n;
-    }
-    return div;
-}
-
-bool Prim(int n)
-{
-    int d = 2;
-    if (n < 2)
-        return false;
-    while (d * d <= n)
+    int d, nrdiv = 0;
+    for (d = 1; d * d < n; d++)
     {
         if (n % d == 0)
-            return false;
-        d++;
+            nrdiv += 2;
     }
-    return true;
+    if (d * d == n)
+        nrdiv++;
+    return nrdiv;
 }
 
 int main()
 {
-    int n, x, nr = 0;
+    Eratostene[0] = 1, Eratostene[1] = 1;
+    for (int i = 2; i < sqrt(1000000); i++)
+    {
+        if (Eratostene[i] == 0)
+            for (int j = 2; j <= 1000000 / i; j++)
+                Eratostene[j * i] = 1;
+    }
+    int n, x, c = 0;
     in >> n;
-    for (int i = 1; i <= n; i++)
+    for (int i = 0; i < n; i++)
     {
         in >> x;
-        if (x != 1 && Prim(NrDiv(x)) == true)
-            nr++;
+        if (Eratostene[NrDiv(x)] == 0 && x!=1)
+            c++;
     }
-    out << nr;
+    out << c;
     return 0;
 }
