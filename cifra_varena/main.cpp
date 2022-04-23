@@ -8,24 +8,12 @@ int main()
 {
     ifstream in("cifra.in");
     ofstream out("cifra.out");
-    int n, c;
-    bool found=false;
-    in >> n >> c;
-    if(c%9!=0)
-        out<<c<<" ";
-    in.close();
-    while(!found)
+    int n, c, cat = 0;
+    in>>n>>c;
+    while(cat*9+c<=n)
     {
-        if(n%9==c%9)
-        {
-            found=true;
-            break;
-        }
-        else
-            n--;
+        out<<cat*9+c<<" ";
+        cat++;
     }
-    for(int i=0;i<n/9;i++)
-        out<<(i+1)*9+c%9<<" ";
-    out.close();
     return 0;
 }

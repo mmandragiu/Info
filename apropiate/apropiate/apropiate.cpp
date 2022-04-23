@@ -1,18 +1,18 @@
 #include <fstream>
 using namespace std;
 
-bool Prim[32700] = { 0 };
+bool Prim[4000001] = { 0 };
 int n, c, x, y, cnt, dist_st, dist_dr;
 
 int main()
 {
-    ifstream in("apropiate.in");
-    ofstream out("apropiate.out");
+    ifstream in("apropiate1.in");
+    ofstream out("apropiate1.out");
     Prim[0] = 1, Prim[1] = 1;
-    for (int i = 2; i * i < 32700; i++)
+    for (int i = 2; i * i < 4000000; i++)
     {
         if (Prim[i] == 0)
-            for (int j = 2; j <= 32700 / i; j++)
+            for (int j = 2; j <= 4000000 / i; j++)
                 Prim[j * i] = 1;
     }
     in >> n >> c;

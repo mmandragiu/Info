@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "eliminare3", "eliminare3\eliminare3.vcxproj", "{54B32230-9AE0-470F-86FF-B7D2DE64ABDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54B32230-9AE0-470F-86FF-B7D2DE64ABDD}.Debug|x64.ActiveCfg = Debug|x64
+		{54B32230-9AE0-470F-86FF-B7D2DE64ABDD}.Debug|x64.Build.0 = Debug|x64
+		{54B32230-9AE0-470F-86FF-B7D2DE64ABDD}.Debug|x86.ActiveCfg = Debug|Win32
+		{54B32230-9AE0-470F-86FF-B7D2DE64ABDD}.Debug|x86.Build.0 = Debug|Win32
+		{54B32230-9AE0-470F-86FF-B7D2DE64ABDD}.Release|x64.ActiveCfg = Release|x64
+		{54B32230-9AE0-470F-86FF-B7D2DE64ABDD}.Release|x64.Build.0 = Release|x64
+		{54B32230-9AE0-470F-86FF-B7D2DE64ABDD}.Release|x86.ActiveCfg = Release|Win32
+		{54B32230-9AE0-470F-86FF-B7D2DE64ABDD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58392D6E-FAAB-45FE-9978-9B1D17391977}
+	EndGlobalSection
+EndGlobal

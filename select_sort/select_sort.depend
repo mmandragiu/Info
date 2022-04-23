@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1649837977 source:c:\scoala\info\select_sort\main.cpp
+	<iostream>
+	<fstream>
+

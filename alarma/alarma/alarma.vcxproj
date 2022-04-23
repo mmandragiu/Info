@@ -141,6 +141,10 @@
   <ItemGroup>
     <ClCompile Include="alarma.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="alarma.in" />
+    <None Include="alarma.out" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

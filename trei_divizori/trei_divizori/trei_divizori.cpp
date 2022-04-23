@@ -2,9 +2,10 @@
 #include <cmath>
 using namespace std;
 
-int n, x, nr, maxx;
-unsigned int f[1000001];
+ifstream in("treidiv.in");
+ofstream out("treidiv.out");
 
+int n, x, nr;
 bool Prim(int n)
 {
     int d = 2;
@@ -20,26 +21,13 @@ bool Prim(int n)
 }
 int main()
 {
-    
-    ifstream in("treidiv.in");
-    ofstream out("treidiv.out");
     in >> n;
     for (int i = 1; i <= n; i++)
     {
         in >> x;
-        f[x]++;
-        maxx = max(maxx, x);
-    }
-    for (int i = 0; i <= maxx; i++)
-    {
-        if (f[i])
-        {
-            if ((int)sqrt(i) == sqrt(i) && Prim((int)sqrt(i)) == true)
-                nr += f[i];
-        }
+        if ((int)sqrt(x) == sqrt(x) && Prim((int)sqrt(x)) == true)
+            nr++;
     }
     out << nr;
-    in.close();
-    out.close();
     return 0;
 }
