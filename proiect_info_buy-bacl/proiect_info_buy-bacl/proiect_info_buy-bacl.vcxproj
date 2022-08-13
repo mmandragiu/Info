@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b2c3ed30-c591-4dd2-8ba7-2e86eef39c78}</ProjectGuid>
-    <RootNamespace>vanatoare</RootNamespace>
+    <ProjectGuid>{b0128849-ae3c-4770-8f8b-79e81d5566b3}</ProjectGuid>
+    <RootNamespace>proiectinfobuybacl</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>proiect_info_buy-back</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,11 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="vanatoare.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="vanatoare.in" />
-    <None Include="vanatoare.out" />
+    <ClCompile Include="proiect_info_buy-back.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

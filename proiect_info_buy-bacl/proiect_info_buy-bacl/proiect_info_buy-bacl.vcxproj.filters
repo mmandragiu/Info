@@ -15,12 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="vanatoare.cpp">
+    <ClCompile Include="proiect_info_buy-back.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="vanatoare.in" />
-    <None Include="vanatoare.out" />
   </ItemGroup>
 </Project>

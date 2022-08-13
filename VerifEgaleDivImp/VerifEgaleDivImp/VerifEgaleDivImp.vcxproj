@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b2c3ed30-c591-4dd2-8ba7-2e86eef39c78}</ProjectGuid>
-    <RootNamespace>vanatoare</RootNamespace>
+    <ProjectGuid>{81444512-d2b9-4ea2-b5a2-1f3eeaf79184}</ProjectGuid>
+    <RootNamespace>VerifEgaleDivImp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="vanatoare.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="vanatoare.in" />
-    <None Include="vanatoare.out" />
+    <ClCompile Include="VerifEgaleDivImp.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
