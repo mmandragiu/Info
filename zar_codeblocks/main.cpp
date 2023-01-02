@@ -1,0 +1,110 @@
+#include <fstream>
+using namespace std;
+
+ifstream in("zar.in");
+ofstream out("zar.out");
+
+int main()
+{
+    int directie = 1, f1, f2, f3, n, r, k;
+    //1=dreapta,2=jos,3=stanga,4=sus
+    in >> n >> k >> f1 >> f2 >> f3;
+    if (k < n)
+    {
+        for (int i = 1; i <= k; i++)
+        {
+            f2 = 7 - f3;
+            f3 = f2;
+        }
+        out << f1 << f2 << f3;
+    }
+    else
+    {
+        r = k % n;
+        while (k > r)
+        {
+            if (directie == 1)
+            {
+                for (int i = 1; i <= n - 1; i++)
+                {
+                    int aux = f3;
+                    f3 = f2;
+                    f2 = 7 - aux;
+                }
+                directie = 2;
+                continue;
+            }
+            if (directie == 2)
+            {
+                for (int i = 1; i <= n - 1; i++)
+                {
+                    int aux = f1;
+                    f1 = f2;
+                    f2 = 7 - aux;
+                }
+                directie = 3;
+                continue;
+            }
+            if (directie == 3)
+            {
+                for (int i = 1; i <= n - 1; i++)
+                {
+                    int aux = f3;
+                    f3 = 7 - f2;
+                    f2 = aux;
+                }
+                directie = 4;
+                continue;
+            }
+            if (directie == 4)
+            {
+                for (int i = 1; i <= n - 1; i++)
+                {
+                    int aux = f2;
+                    f2 = f1;
+                    f1 = 7 - aux;
+                }
+                directie = 1;
+                continue;
+            }
+            k = k - 4;
+        }
+        if (directie == 1)
+        {
+            for (int i = 1; i <= r - 1; i++)
+            {
+                int aux = f3;
+                f3 = f2;
+                f2 = 7 - aux;
+            }
+        }
+        if (directie == 2)
+        {
+            for (int i = 1; i <= r - 1; i++)
+            {
+                int aux = f1;
+                f1 = f2;
+                f2 = 7 - aux;
+            }
+        }
+        if (directie == 3)
+        {
+            for (int i = 1; i <= r - 1; i++)
+            {
+                int aux = f3;
+                f3 = 7 - f2;
+                f2 = aux;
+            }
+        }
+        if (directie == 4)
+        {
+            for (int i = 1; i <= r - 1; i++)
+            {
+                int aux = f2;
+                f2 = f1;
+                f1 = 7 - aux;
+            }
+        }
+        out << f1 << f2 << f3;
+    }
+}

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1671458047 source:c:\scoala\info\eliminareperechivocale\main.cpp
+	<iostream>
+	<cstring>
+

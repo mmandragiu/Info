@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1671446029 source:c:\scoala\info\palindrom_codeblocks\main.cpp
+	<fstream>
+	<cstring>
+
