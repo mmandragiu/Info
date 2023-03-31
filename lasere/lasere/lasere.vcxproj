@@ -141,6 +141,10 @@
   <ItemGroup>
     <ClCompile Include="lasere.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="lasere.in" />
+    <None Include="lasere.out" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1679929231 source:c:\scoala\info\text3_codeblocks\main.cpp
+	<fstream>
+	<cstring>
+

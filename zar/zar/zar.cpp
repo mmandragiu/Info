@@ -82,7 +82,7 @@ int main()
         {
             if (directie == 1)
             {
-                for (int i = 1; i <= r - 1; i++)
+                for (int i = 1; i <= r; i++)
                 {
                     int aux = f3;
                     f3 = f2;
@@ -91,7 +91,7 @@ int main()
             }
             if (directie == 2)
             {
-                for (int i = 1; i <= r - 1; i++)
+                for (int i = 1; i <= r; i++)
                 {
                     int aux = f1;
                     f1 = f2;
@@ -100,7 +100,7 @@ int main()
             }
             if (directie == 3)
             {
-                for (int i = 1; i <= r - 1; i++)
+                for (int i = 1; i <= r; i++)
                 {
                     int aux = f3;
                     f3 = 7 - f2;
@@ -109,7 +109,7 @@ int main()
             }
             if (directie == 4)
             {
-                for (int i = 1; i <= r - 1; i++)
+                for (int i = 1; i <= r ; i++)
                 {
                     int aux = f2;
                     f2 = f1;
